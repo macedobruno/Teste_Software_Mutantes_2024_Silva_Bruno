@@ -15,21 +15,20 @@ Projeto desenvolvido para a atividade 2 da Disciplina de Teste de Software.
 1. Clonando repositório:
 
 ```bash
-git clone https://github.com/macedobruno/PLN_2024_SILVA_BRUNO.git
-cd PLN_2024_SILVA_BRUNO
+git clone https://github.com/macedobruno/Teste_Software_Mutantes_2024_Silva_Bruno.git
 ```
 
-2. Instalando dependências
+2. Preparando ambiente virtual
+
+```bash
+pip install python3-venv
+python -m venv Teste_Software_Mutantes_2024_Silva_Bruno/
+cd Teste_Software_Mutantes_2024_Silva_Bruno
+source bin/activate
+```
+
+3. Instalando dependências
 
 ```bash
 pip install -r requirements.txt
-```
-
-## Uso
-
-Após instalação das dependências, basta executar o arquivo atividade1_populador.py e em seguida o atividade1_v2.py:
-
-```bash
-python atividade1_populador.py
-python atividade1_v2.py 
 ```
