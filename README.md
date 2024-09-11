@@ -79,13 +79,7 @@ mutmut results
 mutmut show <id>
 ```
 
-7. Verificar mutação sobrevivente por id
-
-```bash
-mutmut show <id>
-```
-
-8. Gerar relatório de mutações sobreviventes
+7. Gerar relatório de mutações sobreviventes
 
 ```bash
 mutmut html
