@@ -37,4 +37,5 @@ source bin/activate
 
 ```bash
 pip install -r requirements.txt
+python minimal-pytest-project-master/setup.py install
 ```
