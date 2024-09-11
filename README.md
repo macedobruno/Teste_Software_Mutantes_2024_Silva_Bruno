@@ -8,6 +8,10 @@ A atividade planeja cobrir assunto relacionados a mutações e cobertura de test
 
  - minimal-pytest-project - https://github.com/maet3608/minimal-pytest-project.git
 
+## Vídeo de demonstração
+
+ - https://drive.google.com/file/d/1Skw_jFWckp0Rrb6mhgd5DV6OkGp-c838/view?usp=sharing
+
 ## Requisitos
 
 - Python 3.7 ou superior
