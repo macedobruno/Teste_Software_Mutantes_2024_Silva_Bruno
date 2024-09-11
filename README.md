@@ -39,3 +39,18 @@ source bin/activate
 pip install -r requirements.txt
 python minimal-pytest-project-master/setup.py install
 ```
+
+## Execução
+
+1. Testes iniciais
+
+```bash
+cd minimal-pytest-project-master/
+pytest -v tests/test_calculator.py
+```
+
+2. Verificar cobertura de testes
+
+```bash
+pytest -vv tests/test_calculator.py --cov
+```

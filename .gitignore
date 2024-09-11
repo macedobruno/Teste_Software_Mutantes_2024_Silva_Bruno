@@ -170,3 +170,7 @@ lib/
 lib
 lib64/
 lib64
+htmlcov
+htmlcov/
+.vscode
+.vscode/
