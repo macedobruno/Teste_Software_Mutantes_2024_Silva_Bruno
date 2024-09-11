@@ -174,3 +174,8 @@ htmlcov
 htmlcov/
 .vscode
 .vscode/
+html
+html/
+.mutmut-cache
+.coveragerc
+.coverage

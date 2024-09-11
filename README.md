@@ -54,3 +54,39 @@ pytest -v tests/test_calculator.py
 ```bash
 pytest -vv tests/test_calculator.py --cov
 ```
+
+3. Gerar relatório de cobertura de testes
+
+```bash
+pytest -vv tests/test_calculator.py --cov --cov-report html
+```
+
+4. Executar testes usando mutmut
+
+```bash
+mutmut run --paths-to-mutate=mymath/calculator.py
+```
+
+5. Verificar resultado de mutantes sobreviventes
+
+```bash
+mutmut results
+```
+
+6. Verificar mutação sobrevivente por id
+
+```bash
+mutmut show <id>
+```
+
+7. Verificar mutação sobrevivente por id
+
+```bash
+mutmut show <id>
+```
+
+8. Gerar relatório de mutações sobreviventes
+
+```bash
+mutmut html
+```
