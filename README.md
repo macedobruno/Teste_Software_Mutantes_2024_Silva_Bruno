@@ -2,6 +2,12 @@
 
 Projeto desenvolvido para a atividade 2 da Disciplina de Teste de Software.
 
+A atividade planeja cobrir assunto relacionados a mutações e cobertura de testes.
+
+## Projeto Baseado
+
+ - https://github.com/maet3608/minimal-pytest-project.git
+
 ## Requisitos
 
 - Python 3.7 ou superior
